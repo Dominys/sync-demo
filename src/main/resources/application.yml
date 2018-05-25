@@ -1,0 +1,28 @@
+#spring.cloud.stream.bindings.output.contentType: application/json
+#spring.cloud.stream.kafka.streams.binder:
+#  brokers: localhost:32769, localhost:32771
+#  configuration:
+#    commit.interval.ms: 1000
+#    default.key.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+#    default.value.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+#
+#spring.cloud.stream.bindings.output:
+#  destination: output
+#  producer:
+#    headerMode: raw
+#    #useNativeEncoding: true
+#
+#spring.cloud.stream.bindings.input:
+#  destination: input
+#  consumer:
+#    concurency: 10
+#    headerMode: raw
+#server.port: 8081
+#spring:
+#  kafka:
+#    listener:
+#      concurrency: 30
+#kafka.num.stream.threads: 30
+#num.stream.threads: 30
+
+bootstrap.kafka.servers: 192.168.2.61:32788, 192.168.2.61:32789
