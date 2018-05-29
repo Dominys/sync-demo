@@ -25,7 +25,7 @@
 #kafka.num.stream.threads: 30
 #num.stream.threads: 30
 
-bootstrap.kafka.servers: 192.168.2.61:32788, 192.168.2.61:32789
+bootstrap.kafka.servers: 172.18.0.1:32768, 172.18.0.1:32769
 server:
   port: 8081
 management:
